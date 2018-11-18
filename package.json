@@ -1,0 +1,35 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Some utilities code",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ",
+    "test": "mocha ./lib/**/*.spec.js --watch",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "utilities",
+    "javascript",
+    "generator",
+    "gerador",
+    "cpf",
+    "cnpj"
+  ],
+  "author": "Joao Hencke <joao.hencke@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.6",
+    "prettier": "^1.15.2"
+  }
+}
