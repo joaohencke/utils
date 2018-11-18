@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Some utilities code",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "lint": "eslint ",
     "test": "mocha ./lib/**/*.spec.js --watch",
@@ -31,5 +32,17 @@
     "mocha": "^5.2.0",
     "nodemon": "^1.18.6",
     "prettier": "^1.15.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaohencke/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaohencke/utils/issues"
+  },
+  "homepage": "https://github.com/joaohencke/utils#readme"
 }
