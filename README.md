@@ -1,5 +1,17 @@
 # Some utilities
 
+## Installing
+ `npm install @joao.hencke/utils`
+
+## Usage
+```javascript
+ const { generator } = require('@joao.hencke/utils');
+ generator.cnpj();
+ generator.cpf();
+ generator.creditCard(generator.creditCard.schemas.MasterCard);
+ generator.creditCard(generator.creditCard.schemas.Visa);
+```
+
 ## Generators
  - CPF
  - CNPJ
